@@ -75,7 +75,7 @@ function SingleRegisterForm() {
   setAlert({ ...alert, open: false });
  };
 
- const checkoutUrl = "https://www.thehockeyshop.com/checkouts/cn/Z2NwLXVzLWNlbnRyYWwxOjAxSlJFVFQ5SkNTN0pGRUNSN1NUMEpBTTdL?auto_redirect=false&edge_redirect=true&locale=en-CA&skip_shop_pay=true";
+ const checkoutUrl = "https://www.thehockeyshop.com/apps/rebuy/cart?variants%5B41615126822978%5D%5Bquantity%5D=1&clear_cart=yes&landing_page=shopify_checkout&smart_cart_show=no";
 
  return (
   <>
